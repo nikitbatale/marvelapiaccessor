@@ -1,0 +1,37 @@
+# Build Folders (you can keep bin if you'd like, to store dlls and pdbs)
+bin/*
+obj/*
+
+*.class
+*.jar
+*.ear
+*.war
+
+#eclipse specific git ignore
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+
+# locally stored Eclipse launch configurations
+
+# gradle 
+
+*cache.properties*
+*.bin
+./gradle/*
+./gradle/**/*
+./gradle/**/**/*
+
+# some test files to see output on console I don't wish to upload to git
+src/test/java/Sample.java
+src/test/java/marvelapiporters/LoginKredentials.java
